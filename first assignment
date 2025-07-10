@@ -1,0 +1,42 @@
+print("Hello", 100, True, 3.14)
+print("Hello", 100, True, 3.14, sep="-")
+print("Hello", end=" ")
+print(100, end=" ")
+print(True, end=" ")
+print(3.14)
+print()
+
+name = "Mr. Ahmed"
+age = 30
+profession = "Lawyer"
+bachelors_year = 2005
+law_firm = "The Himalya Associates"
+working_since = 2015
+height_feet = 5.10
+weight_grams = 70600
+monthly_income_pkr = 200000
+
+current_year = 2025
+years_since_graduation = current_year - bachelors_year
+print(years_since_graduation)
+
+years_at_firm = current_year - working_since
+print(years_at_firm)
+
+usd_rate = 280
+income_usd = monthly_income_pkr / usd_rate
+print(income_usd)
+
+if isinstance(income_usd, float):
+    income_usd = int(income_usd)
+    print(income_usd)
+
+print(type(weight_grams))
+weight_kg = int(weight_grams / 1000)
+print(weight_kg)
+
+year_of_birth = current_year - age
+print(year_of_birth)
+
+remainder = 100 % 6
+print(remainder == 0)
