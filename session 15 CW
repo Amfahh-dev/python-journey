@@ -13,5 +13,16 @@ for num in numbers:
          break
      print("your items",text )
 
-
+students=["hassan","Amfahh","Umaima"]
+for s in students:
+    if s == "Amfahh":
+        print("Amfahh is here")
+        break 
+    print(f"my name is {s} im not Amfahh")
      
+users=["hassan","Amfahh","Umaima","muzzimal"]
+
+for user in users:
+    if user == "":
+        continue 
+    print("welcome", user)
