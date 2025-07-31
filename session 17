@@ -23,3 +23,18 @@ def newmember(name):
 
 
 Operations(10, 5)
+
+def welcome_message(name):
+    return f"Welcome to the team {name}"
+
+def user_defined_function(names):
+    messages = []
+    for name in names:
+        messages.append(welcome_message(name))
+    return messages
+
+
+team_names = ["Amfahh", "Ayesha"]
+result_messages = user_defined_function(team_names)
+for message in result_messages:
+    print(message)
