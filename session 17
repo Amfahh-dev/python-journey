@@ -1,0 +1,25 @@
+def greet_user(name):
+    print("Hello", name)
+
+greet_user("Amfahh")
+greet_user("Shiza")
+
+
+
+def newmember(name):
+    print("Welcome to the team", name)
+
+    newmember("Amfahh")
+
+    def Operations(a, b):
+    print("Sum of two numbers is ", a + b)
+    print("Difference of two numbers is ", a - b)
+    print("Product of two numbers is ", a * b)
+    if b != 0:
+        print("Division of two numbers is ", a / b)
+    else:
+        print("Division by zero is not allowed")
+
+
+
+Operations(10, 5)
